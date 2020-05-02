@@ -1,0 +1,197 @@
+@media screen and (max-width: 650px) {
+
+	header {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+	header nav {
+		margin-left: 40px;
+	}
+	.burger {
+		margin-left: 60%;	
+		position: relative;
+	}
+	.top_banner {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.reviews {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.reviews a {
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.posts {
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		height: 450px;
+		margin-bottom: -100px;
+	}
+	.posts_text {
+		width: 100%;
+		margin-top: 0 auto;
+		padding: 30px;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+	.posts img {
+	    width: 400px;
+	    height: 170px;
+	}
+	.posts p {
+		margin: 0 auto;
+		text-align: center;
+		padding-right: 50px;
+	}
+	.posts h3 {
+		text-align: center;
+	}
+	.ads {
+		margin-top: -915px;
+		margin-bottom: -110px;
+		width: 28%;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+	}
+	.ad3 input {
+		width: 250px;
+	}
+	.ad2 {
+		margin-bottom: -15px;
+	}
+	.ad1 {
+		margin-bottom: -15px;
+	}
+
+	#desktop {
+	display: none;
+	}
+
+	#mobile {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	background: white;
+	position: absolute;
+	top: 5px;
+	left: 80%;
+	}
+
+	#mobile a {
+	display: flex;
+	width: 70px;
+	text-decoration: none;
+	}
+
+	.burger {
+	display: block;
+	width: 98%;
+	background: white;
+	padding: 7.5px 0 7.5px 2%;
+	}
+
+	nav a:first-child {
+		padding-right: 70px;
+	}
+
+
+	
+
+/*-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+	.posts {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.posts p {
+		margin-top: -20px;
+		padding-right: 50px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.posts h3 {
+		margin-top: -20px;
+		text-align: center;
+	}
+	.posts img {
+	    width: 500px;
+	    height: 150px;
+	}
+    .chunks {
+	    display: flex;
+	    flex-flow: row wrap;
+	    width: 60%;
+	}
+	.chunk:nth-child(9) {
+		display: none;
+	}
+	.chunk {
+       display: flex;
+       flex-flow: column nowrap;
+       justify-content: space-between;
+       height: 365px;
+       font-size: 16px;
+       font-family: "SegoeWP", sans-serif;
+       color: rgb(132, 132, 132);
+       line-height: 0.9;
+       text-align: center;
+       width: 300px;
+       box-shadow: 1px 1px 7px rgba(0, 0, 0, .2);
+       padding: 10px;
+	}
+    .chunks span {
+       font-size: 20px;
+       font-family: "SegoeWP", sans-serif;
+       color: rgb(132, 132, 132);
+       line-height: 1.429;
+       text-align: center;
+	}
+
+    .chunks p {
+       font-size: 20px;
+       font-family: "SegoeWP";
+       color: rgb(132, 132, 132);
+       line-height: 1.429;
+       text-align: center;
+	}
+	.chunks h4 {
+       font-size: 24px;
+       font-family: "SegoeWP", sans-serif;
+       color: rgb(105, 97, 97);
+       line-height: 1.077;
+       text-align: center;
+	}
+	.ads {
+		margin-top: -1587px;
+		margin-bottom: 560px;
+		margin-left: 610px;
+		width: 33%;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+	}
+	.ad3 input {
+		width: 250px;
+	}
+	.ad2 {
+		margin-bottom: -15px;
+	}
+	.ad1 {
+		margin-bottom: -15px;
+	}
+}
+
+

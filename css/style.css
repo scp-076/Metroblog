@@ -1,0 +1,387 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 1024px;
+	max-width: 1900px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.error {
+	color: white;
+}
+
+#mobile {
+	display: none;
+}
+
+.burger {
+	display: none;
+	width: 58%;
+	background: white;
+	padding: 7.5px 0 7.5px 2%;
+}
+
+
+.burger span {
+	display: flex;
+	margin: 8px;
+	width: 30px;
+	height: 1px;
+	background: black;
+	z-index: 999;
+}
+
+header {
+	border-bottom: 1px solid #d0d0d0;
+	width: 1024px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	margin: 0 auto;
+
+}
+
+header img {
+	margin-top: 40px;
+	max-height: 48px;
+}
+
+
+nav {
+	display: flex;
+	width: 400px;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+}
+
+nav a {
+    font-size: 23px;
+    font-family: "SegoeWPN", sans-serif;
+    color: #4d4e4d;
+    line-height: 1;
+}
+
+nav a:first-child {
+	padding: 5px 10px;
+	background-color: black;
+	color: white;
+}
+
+.top_banner {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.top_banner a {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 200px;
+	height: 38px;
+	background-color: #373737;
+	color: #ffffff;
+    font-size: 23px;
+    font-family: "SegoeWPN", sans-serif;
+    line-height: 1;
+
+}
+
+.top_banner h1, .top_banner h2 {
+   font-size: 50px;
+   font-family: "SegoeWP", sans-serif;
+   color: rgb(93, 93, 93);
+   line-height: 0.5;
+   text-align: left;
+}
+
+.ipad_image, .reviews {
+	margin-top: 100px;
+}
+
+.ipad_image {
+	margin-left: 10px;
+}
+
+.reviews h1 {
+	width: 400px;
+}
+
+.posts {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: top;
+	width: 65%;
+	height: 242px;
+
+}
+
+.posts img {
+	width: 300px;
+	height: 240px;
+}
+
+.posts_text {
+	margin-left: 15px;
+	height: 242px;
+
+}
+
+.posts h3 {
+    font-size: 30px;
+    font-family: "SegoeWP", sans-serif;
+    color: rgb(105, 97, 97);
+    line-height: 0.8;
+    text-align: left;
+}
+
+.posts p {
+    font-size: 16px;
+    font-family: "SegoeWP", sans-serif;
+    color: rgb(132, 132, 132);
+    line-height: 1.1;
+    text-align: left;
+    margin-top: -10px;
+    max-width: 95%;
+}
+
+.main {
+	
+	width: 1024px;
+}
+.ads {
+	margin-left: 690px;
+	width: 33%;
+	height: 1030px;
+	margin-top: -1022px;
+}
+
+.ad1 {
+	border: 1px solid #A8A8A8;
+	height: 240px;
+	background-color: #E6E6E6;
+	display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ad1 img {
+	width: 180px;
+	height: 150px;
+	display: flex;
+	margin: 0 auto;
+
+}
+
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 1024px;
+}
+
+.ad1 p {
+   font-size: 21px;
+   font-family: "SegoeWPN", sans-serif;
+   color: rgb(155, 160, 141);
+   line-height: 1;
+   text-align: center;
+   margin-top: -5px;
+}
+
+.ad1 strong {
+	color: #b8dc58;
+	font-size: 30px;
+	line-height: 1.4;
+	letter-spacing: 4px;
+	word-spacing: 5px;
+
+}
+
+.round_img {
+	width: 100px;
+	height: 100px;
+	background-color: #ef809f;
+	border-radius: 100px;
+	text-align:  center;
+	border: 5px solid white;
+	margin-top: -25px;
+}
+
+
+.ad2 {
+	text-transform: uppercase;
+	background-color: #86e7f0;
+	margin-top: 25px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.ad2 h2 {
+   font-size: 30px;
+   margin-top: 10px;
+   font-family: "SegoeWPN", sans-serif;
+   color: rgb(255, 255, 255);
+   line-height: 1;
+
+}
+
+.ad2 p {
+   font-size: 23px;
+   font-family: "OptimaLT", sans-serif;
+   color: rgb(255, 255, 255);
+   line-height: 1.1;
+   text-align: center;
+   margin-top: -5px;
+}
+
+.ad2 a {
+   font-size: 20px;
+   font-family: "OptimaLT", sans-serif;
+   color: rgb(255, 255, 255);
+   background-color: #58d1dc;
+   line-height: 1;
+   text-align: center;
+   padding: 10px;
+   margin-top: -5px;
+}
+
+.ad3 {
+	margin-top: 25px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	background-color: #393a39;
+}
+
+.ad3 p {
+   font-size: 16px;
+   font-family: "SegoeWP", sans-serif;
+   color: rgb(255, 255, 255);
+   line-height: 1.1;
+   text-align: left;
+   margin-top: -10px;
+}
+
+.ad3 h2 {
+   font-size: 27px;
+   font-family: "SegoeWP", sans-serif;
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+   line-height: 1;
+   text-align: center;
+}
+
+.ad3 input {
+   margin-bottom: 15px;
+   padding: 5px;
+   color: black;
+}
+
+#submit {
+	display: block;
+	width: 180px;
+   font-size: 23.434px;
+   font-family: "OptimaLT", sans-serif;
+   color: rgb(255, 255, 255);
+   line-height: 1.213;
+   text-align: center;
+   background-color: #bb4465;
+   border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 15px;
+}
+
+.chunk {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: space-between;
+   height: 260px;
+   font-size: 14px;
+   font-family: "SegoeWP", sans-serif;
+   color: rgb(132, 132, 132);
+   line-height: 0.9;
+   text-align: center;
+   width: 230px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, .2);
+   padding: 10px;
+
+}
+
+.chunks {
+	display: flex;
+	flex-flow: row wrap;
+	width: 68.75%;
+}
+
+.chunks h4 {
+  font-size: 20px;
+  font-family: "SegoeWP", sans-serif;
+  color: rgb(105, 97, 97);
+  line-height: 1.077;
+  text-align: center;
+
+}
+
+.chunks span {
+  font-size: 14px;
+  font-family: "SegoeWP", sans-serif;
+  color: rgb(132, 132, 132);
+  line-height: 1.429;
+  text-align: center;
+}
+
+.chunks p {
+  font-size: 14px;
+  font-family: "SegoeWP";
+  color: rgb(132, 132, 132);
+  line-height: 1.429;
+  text-align: center;
+}
+
+footer {
+	background-color: #393a39;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	height: 70px;
+	width: 	100%;
+	margin: 0 auto;
+}
+
+footer span {
+  font-size: 16px;
+  font-family: "SegoeWP", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.25;
+  text-align: center;
+  margin-right: 170px;
+
+}
+
+footer img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer img:first-of-type {
+	margin-left: 150px;
+}
+
+footer img:last-of-type {
+	margin-right: 100px;
+}
